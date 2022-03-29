@@ -1,0 +1,36 @@
+.application {
+    width: 24px;
+    height: 24px;
+    margin:0%;   
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.first-nav {
+    margin: 1vh 1vw;
+    text-decoration: none;
+    color: black;
+}
+.second-nav-div {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.second-nav {
+    margin: 1vh 1vw;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-button {
+    position:relative; 
+    bottom:1.5vh;
+    background: #8ab4f8;
+    border: 5px solid transparent;
+    border-radius: 8px;
+    color: white;
+}
