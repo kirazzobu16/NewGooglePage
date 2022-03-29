@@ -1,31 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .application {
     width: 24px;
     height: 24px;
     margin:0%;   
 }
+/* nav kısımları */
 nav {
     display: flex;
     justify-content: space-between; 
     align-items: center;
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin-top: 1vh;
 }
+/* Sol taraftaki butonlar */
 .first-nav {
     margin: 1vh 1vw;
     text-decoration: none;
     color: black;
 }
+/*Sağ taraftaki butonların divi */
 .second-nav-div {
     display: flex;
     justify-content: space-between; 
     align-items: center;
 }
-
+/*Sağ taraftaki butonlar  */
 .second-nav {
     margin: 1vh 1vw;
     text-decoration: none;
     color: black;
 }
-
+/* Sign in butonu ayarlama */
 .nav-button {
     position:relative; 
     bottom:1.5vh;
@@ -33,4 +41,28 @@ nav {
     border: 5px solid transparent;
     border-radius: 8px;
     color: white;
+}
+
+section {
+    justify-content: center;
+    
+}
+/* footer içindeki düzenlemeler */
+footer {
+    position:absolute;
+    bottom:0;
+    width:100vw;
+    height: 5vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.first-footer {
+    margin: 0 1vw;
+    text-decoration: none;
+    color: black;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+
 }
