@@ -36,15 +36,17 @@
            <img src="../images/logo.png" alt="Google">
        </article>
        <!-- Butonlar koyuldu. -->
-       <article>
-           <img class="search-img" src="../images/search.svg" alt="AramaButonu">
-           <input class="search-button" type="search" placeholder="Google'da arama yapın veya bir URL yazın" id="SearchText"> 
-           <img class="search-img" src="../images/googlemic_clr_24px.svg" alt="SesliArama">
+       <article style="position: relative; top: 0;" >     
+            <input class="search-button" type="search" placeholder="Google'da arama yapın veya bir URL yazın" id="SearchText"> 
+           <div class="search-img">
+                <div><img src="../images/search.svg" alt="AramaButonu"></div>
+                <div class="voice-icon"><img src="../images/googlemic_clr_24px.svg" alt="SesliArama"> <div>           
+           </div>          
        </article>
        <!-- Google search ve I'm feeling lucky kısmı var -->
        <article>
-           <input type="button" value="Google Search">
-           <input type="button" value="I'm Feeling Lucky">
+           <input class="buttons" type="button" value="Google Search">
+           <input class="buttons" type="button" value="I'm Feeling Lucky">
        </article>
    </section>
    <!-- Alt kısmı yazıldı. -->
